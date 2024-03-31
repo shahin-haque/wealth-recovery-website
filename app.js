@@ -46,8 +46,4 @@ document.getElementById("contactForm").addEventListener("submit", function (e) {
   document.getElementById("response").innerHTML =
     '<div id="success">Form submitted successfully!</div>';
   // You can add an AJAX request here to send form data to the server
-  name = "";
-  email = "";
-  phone = "";
-  message = "";
 });
